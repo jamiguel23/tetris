@@ -1,6 +1,6 @@
 'use strict'
 
-document.addEventListener('DOMContentLoaded', () => {
+let app = document.addEventListener('DOMContentLoaded', () => {
 
   const gird = document.querySelector('.grid')
   let squares = Array.from(document.querySelectorAll('.grid div'))
@@ -11,3 +11,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
   console.log(scoreDisplay, startBtn)
 })
+
+module.exports = app
