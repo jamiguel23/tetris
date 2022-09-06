@@ -1,3 +1,13 @@
-*{
-  background-color: red;
+.grid {
+  width: 200px;
+  height: 400px;
+  background-color: goldenrod;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid div{
+  width: 20px;
+  height: 20px;
+  background-color: #102E37;
 }
