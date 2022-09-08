@@ -45,5 +45,21 @@ document.addEventListener('DOMContentLoaded', () => {
     [width, width+1, width+2, width+3]
   ]
 
+  const theTetrominoes = [lTetro, zTetro, tTetro, oTetro, iTetro]
+
+
+  let currentPosition = 4
+  let current = theTetrominoes[0][0]
+
+  //draw function for the first tetromino rotation 
+  function draw(){
+    current.forEach(index =>{
+      squares[currentPosition + index].classList.add('tetromino')
+    })
+  }
+
+  draw()
+
+
 })
 
